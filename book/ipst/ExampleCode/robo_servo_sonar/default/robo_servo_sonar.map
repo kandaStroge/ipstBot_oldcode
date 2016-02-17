@@ -1,0 +1,472 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodhi4.o)
+                              robo_servo_sonar.o (__udivmodhi4)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodsi4.o)
+                              robo_servo_sonar.o (__udivmodsi4)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o (exit)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+                              robo_servo_sonar.o (__do_copy_data)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+                              robo_servo_sonar.o (__do_clear_bss)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                              robo_servo_sonar.o (dtostrf)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              robo_servo_sonar.o (ltoa)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtostrf.o) (dtoa_prf)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__ftoa_engine)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ltoa.o) (strrev)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_prologue.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__prologue_saves__)
+c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_epilogue.o)
+                              c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o) (__epilogue_restores__)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+LOAD robo_servo_sonar.o
+LOAD c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libm.a
+LOAD c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a
+LOAD c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a
+LOAD c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x20fc
+ *(.vectors)
+ .vectors       0x00000000       0x54 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ *(.progmem*)
+ .progmem.data  0x00000054       0xfa c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x0000014e                . = ALIGN (0x2)
+                0x0000014e                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x0000014e        0x0 linker stubs
+ *(.trampolines*)
+                0x0000014e                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x0000014e                __ctors_start = .
+ *(.ctors)
+                0x0000014e                __ctors_end = .
+                0x0000014e                __dtors_start = .
+ *(.dtors)
+                0x0000014e                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x0000014e        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+                0x0000014e                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x0000014e        0xc c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x0000015a       0x16 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+                0x0000015a                __do_copy_data
+ .init4         0x00000170       0x10 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+                0x00000170                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x00000180        0x8 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+ *(.init9)
+ *(.text)
+ .text          0x00000188        0x4 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+                0x00000188                __vector_1
+                0x00000188                __vector_12
+                0x00000188                __bad_interrupt
+                0x00000188                __vector_6
+                0x00000188                __vector_3
+                0x00000188                __vector_11
+                0x00000188                __vector_13
+                0x00000188                __vector_17
+                0x00000188                __vector_19
+                0x00000188                __vector_7
+                0x00000188                __vector_5
+                0x00000188                __vector_2
+                0x00000188                __vector_15
+                0x00000188                __vector_14
+                0x00000188                __vector_10
+                0x00000188                __vector_16
+                0x00000188                __vector_18
+                0x00000188                __vector_20
+ .text          0x0000018c     0x1968 robo_servo_sonar.o
+                0x0000194c                turn_right
+                0x00001992                pause
+                0x00001180                lcd
+                0x00000618                out_b
+                0x00000ee4                lcd_clk
+                0x00000a20                motor_stop
+                0x00000760                out_d
+                0x000004ea                in_d
+                0x00000460                in_c
+                0x00000d1a                servo_start
+                0x00000eaa                servo_get_status
+                0x00000a8a                sleep
+                0x0000026c                toggle_c
+                0x000016ee                waitEchoUntil
+                0x000017e2                srf05_dist
+                0x00000574                out_a
+                0x00001906                turn_left
+                0x00000844                pwm_init
+                0x0000034c                in_a
+                0x00001650                activePulsePin
+                0x00000e6c                servo_resume
+                0x0000018c                toggle_a
+                0x000015d0                systick_pause
+                0x0000154e                systick_start
+                0x00000da8                servo
+                0x0000187a                forward
+                0x000006bc                out_c
+                0x0000102a                lcd_puts
+                0x000015fa                usec
+                0x000018c0                backward
+                0x000010d8                lcd_init
+                0x000019ac                main
+                0x00001082                inttolcd
+                0x000014f8                __vector_4
+                0x000002dc                toggle_d
+                0x00000aee                __vector_9
+                0x00000e30                servo_pause
+                0x000015e4                systick_resume
+                0x00001598                systick_stop
+                0x00000886                pwm
+                0x00000956                motor
+                0x000001fc                toggle_b
+                0x000003d6                in_b
+                0x00000804                __vector_8
+                0x00000f9e                lcd_text
+                0x00000d6c                servo_stop
+                0x00000f12                lcd_command
+ .text          0x00001af4        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodhi4.o)
+ .text          0x00001af4        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodsi4.o)
+ .text          0x00001af4        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+ .text          0x00001af4        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+ .text          0x00001af4        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+ .text          0x00001af4       0x42 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+                0x00001af4                dtostrf
+ .text          0x00001b36       0x68 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x00001b36                ltoa
+ .text          0x00001b9e      0x2b2 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+                0x00001b9e                dtoa_prf
+ .text          0x00001e50      0x1b0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+                0x00001e50                __ftoa_engine
+ .text          0x00002000       0x20 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00002000                strrev
+ .text          0x00002020        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_prologue.o)
+ .text          0x00002020        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_epilogue.o)
+                0x00002020                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x00002020       0x28 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodhi4.o)
+                0x00002020                __udivmodhi4
+ .text.libgcc   0x00002048       0x44 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodsi4.o)
+                0x00002048                __udivmodsi4
+ .text.libgcc   0x0000208c        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+ .text.libgcc   0x0000208c        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000208c        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000208c       0x38 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_prologue.o)
+                0x0000208c                __prologue_saves__
+ .text.libgcc   0x000020c4       0x36 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_epilogue.o)
+                0x000020c4                __epilogue_restores__
+                0x000020fa                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000020fa        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+                0x000020fa                exit
+                0x000020fa                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000020fa        0x2 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000020fc                _etext = .
+
+.data           0x00800060        0xa load address 0x000020fc
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+ .data          0x00800060        0xa robo_servo_sonar.o
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodhi4.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodsi4.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_prologue.o)
+ .data          0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_epilogue.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x0080006a                . = ALIGN (0x2)
+                0x0080006a                _edata = .
+                0x0080006a                PROVIDE (__data_end, .)
+
+.bss            0x0080006a       0x18 load address 0x00002106
+                0x0080006a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080006a        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+ .bss           0x0080006a       0x18 robo_servo_sonar.o
+                0x0080006e                activeServo
+                0x00800073                timeBaseServo
+                0x00800078                timerTick
+                0x0080007d                _lcd_clear_display
+                0x0080007c                lcd_ini
+                0x0080006b                _duty2
+                0x0080006d                servo_ini
+                0x0080006c                pwm_ini
+                0x0080007e                _tick
+                0x0080006a                _duty1
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_exit.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_copy_data.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_clear_bss.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtostrf.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ltoa.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(dtoa_prf.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(ftoa_engine.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5\libc.a(strrev.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_prologue.o)
+ .bss           0x00800082        0x0 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/avr5\libgcc.a(_epilogue.o)
+ *(.bss*)
+ *(COMMON)
+                0x00800082                PROVIDE (__bss_end, .)
+                0x000020fc                __data_load_start = LOADADDR (.data)
+                0x00002106                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x00800082        0x0
+                0x00800082                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x00800082                PROVIDE (__noinit_end, .)
+                0x00800082                _end = .
+                0x00800082                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab           0x00000000      0x378
+ *(.stab)
+ .stab          0x00000000      0x378 c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+
+.stabstr        0x00000000       0x5f
+ *(.stabstr)
+ .stabstr       0x00000000       0x5f c:/winavr-20071221/bin/../lib/gcc/avr/4.2.2/../../../../avr/lib/avr5/crtm16.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x20
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 robo_servo_sonar.o
+
+.debug_pubnames
+                0x00000000      0x309
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x309 robo_servo_sonar.o
+
+.debug_info     0x00000000      0xac7
+ *(.debug_info)
+ .debug_info    0x00000000      0xac7 robo_servo_sonar.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x108
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x108 robo_servo_sonar.o
+
+.debug_line     0x00000000      0xd3a
+ *(.debug_line)
+ .debug_line    0x00000000      0xd3a robo_servo_sonar.o
+
+.debug_frame    0x00000000      0x300
+ *(.debug_frame)
+ .debug_frame   0x00000000      0x300 robo_servo_sonar.o
+
+.debug_str      0x00000000       0x14
+ *(.debug_str)
+ .debug_str     0x00000000       0x14 robo_servo_sonar.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(robo_servo_sonar.elf elf32-avr)
+LOAD linker stubs

@@ -1,0 +1,432 @@
+Archive member included because of file (symbol)
+
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o)
+                              read_line.o (dtostrf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (__fixsfsi)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (__floatsisf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_merge.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(floatsisf.o) (__fp_merge)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_split.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fixsfsi.o) (__fp_split1)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fixsfsi.o) (__fp_zero)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(ldexp.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (ldexp)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (__mulsf3)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(mulsf3.o) (__mulsf3x)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(pow.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (pow)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (__subsf3)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(addsf3.o) (__addsf3x)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o) (__divsf3)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(divsf3.o) (__divsf3x)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(pow.o) (exp)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_inverse.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o) (__fp_inverse)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_m_inf.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(ldexp.o) (__fp_m_inf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_split.o) (__fp_nan)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_p_inf.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(ldexp.o) (__fp_p_inf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_powerseries.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o) (__fp_powerseries)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(log.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(pow.o) (log)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(modf.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o) (modf)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_flashconst.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_powerseries.o) (__fp_flashconst)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_copy_data.o)
+                              read_line.o (__do_copy_data)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_clear_bss.o)
+                              read_line.o (__do_clear_bss)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(toascii.o)
+                              read_line.o (toascii)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                              read_line.o (ltoa)
+C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strrev.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(ltoa.o) (strrev)
+C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodsi4.o)
+                              C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(ltoa.o) (__udivmodsi4)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+LOAD read_line.o
+LOAD C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a
+LOAD C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a
+LOAD C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a
+LOAD C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x14ac
+ *(.vectors)
+ .vectors       0x00000000       0x54 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+                0x00000054                __ctors_start = .
+ *(.ctors)
+                0x00000054                __ctors_end = .
+                0x00000054                __dtors_start = .
+ *(.dtors)
+                0x00000054                __dtors_end = .
+ *(.progmem.gcc*)
+ .progmem.gcc_fplib
+                0x00000054       0x1e C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o)
+ .progmem.gcc_fplib
+                0x00000072       0x32 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(log.o)
+ *(.progmem*)
+                0x000000a4                . = ALIGN (0x2)
+ *(.init0)
+ *(.init1)
+ *(.init2)
+ .init2         0x000000a4        0xc C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+ *(.init3)
+ *(.init4)
+ .init4         0x000000b0       0x16 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_copy_data.o)
+                0x000000b0                __do_copy_data
+ .init4         0x000000c6       0x10 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_clear_bss.o)
+                0x000000c6                __do_clear_bss
+ *(.init5)
+ *(.init6)
+ *(.init7)
+ *(.init8)
+ *(.init9)
+ .init9         0x000000d6        0x4 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+ *(.text)
+ .text          0x000000da        0x4 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+                0x000000da                __vector_1
+                0x000000da                __vector_12
+                0x000000da                __bad_interrupt
+                0x000000da                __vector_6
+                0x000000da                __vector_3
+                0x000000da                __vector_11
+                0x000000da                __vector_13
+                0x000000da                __vector_17
+                0x000000da                __vector_19
+                0x000000da                __vector_7
+                0x000000da                __vector_5
+                0x000000da                __vector_4
+                0x000000da                __vector_9
+                0x000000da                __vector_2
+                0x000000da                __vector_15
+                0x000000da                __vector_8
+                0x000000da                __vector_14
+                0x000000da                __vector_10
+                0x000000da                __vector_16
+                0x000000da                __vector_18
+                0x000000da                __vector_20
+ .text          0x000000de      0xcce read_line.o
+                0x00000cda                analog
+                0x00000976                lcd
+                0x000004f6                out_b
+                0x0000070a                lcd_clk
+                0x00000616                out_d
+                0x000003e8                in_d
+                0x0000036a                in_c
+                0x000006a6                sleep
+                0x000001a6                toggle_c
+                0x00000466                out_a
+                0x0000026e                in_a
+                0x000000de                toggle_a
+                0x00000586                out_c
+                0x00000838                lcd_puts
+                0x000008e2                lcd_init
+                0x00000d60                main
+                0x00000890                inttolcd
+                0x0000020a                toggle_d
+                0x00000142                toggle_b
+                0x000002ec                in_b
+                0x000007b8                lcd_text
+                0x00000738                lcd_command
+ .text          0x00000dac       0x68 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(ltoa.o)
+                0x00000dac                ltoa
+ .text          0x00000e14       0x20 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(strrev.o)
+                0x00000e14                strrev
+                0x00000e34                . = ALIGN (0x2)
+ *(.text.*)
+ .text.fplib    0x00000e34      0x11e C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(dtostrf.o)
+                0x00000e34                dtostrf
+ .text.fplib    0x00000f52       0x36 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fixsfsi.o)
+                0x00000f52                __fixsfsi
+                0x00000f78                __fp_lneg
+                0x00000f52                __fixunssfsi
+ .text.fplib    0x00000f88       0x18 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00000f8c                __floatsisf
+                0x00000f88                __floatunssisf
+ .text.fplib    0x00000fa0       0x3a C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_merge.o)
+                0x00000faa                __fp_merge
+ .text.fplib    0x00000fda       0x52 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_split.o)
+                0x00000fda                __fp_split3
+                0x00000fe0                __fp_split2
+                0x00000ff2                __fp_split1
+                0x0000100e                __fp_split_a
+ .text.fplib    0x0000102c        0xa C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x0000102c                __fp_zero
+                0x00001032                __fp_zerox
+ .text.fplib    0x00001036       0x24 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(ldexp.o)
+                0x00001036                ldexp
+ .text.fplib    0x0000105a        0x6 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x0000105a                __mulsf3
+ .text.fplib    0x00001060       0x8a C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00001060                __mulsf3x
+ .text.fplib    0x000010ea       0x92 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(pow.o)
+                0x000010ea                pow
+ .text.fplib    0x0000117c        0xa C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x0000117c                __subsf3
+                0x0000117e                __addsf3
+ .text.fplib    0x00001186       0x7c C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x00001186                __addsf3x
+ .text.fplib    0x00001202        0x6 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00001202                __divsf3
+ .text.fplib    0x00001208       0x86 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x00001208                __divsf3x
+ .text.fplib    0x0000128e       0x88 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(exp.o)
+                0x0000128e                exp
+ .text.fplib    0x00001316       0x10 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_inverse.o)
+                0x00001316                __fp_inverse
+ .text.fplib    0x00001326        0xa C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_m_inf.o)
+                0x00001326                __fp_m_inf
+ .text.fplib    0x00001330        0x6 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x00001330                __fp_nanERANGE
+                0x00001330                __fp_nan
+                0x00001330                __fp_nanEDOM
+                0x00001330                __fp_nanx
+ .text.fplib    0x00001336        0xa C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_p_inf.o)
+                0x00001336                __fp_p_inf
+ .text.fplib    0x00001340       0x66 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_powerseries.o)
+                0x00001340                __fp_powerseries
+ .text.fplib    0x000013a6       0x52 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(log.o)
+                0x000013a6                log
+ .text.fplib    0x000013f8       0x60 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(modf.o)
+                0x000013f8                modf
+ .text.fplib    0x00001458        0xa C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libm.a(fp_flashconst.o)
+                0x00001458                __fp_flashconst
+ .text.ctype    0x00001462        0x6 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5\libc.a(toascii.o)
+                0x00001462                toascii
+ .text.libgcc   0x00001468       0x44 C:/WinAVR/lib/gcc/avr/3.4.6/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001468                __udivmodsi4
+                0x000014ac                . = ALIGN (0x2)
+ *(.fini9)
+ *(.fini8)
+ *(.fini7)
+ *(.fini6)
+ *(.fini5)
+ *(.fini4)
+ *(.fini3)
+ *(.fini2)
+ *(.fini1)
+ *(.fini0)
+                0x000014ac                _etext = .
+
+.data           0x00800060       0x18 load address 0x000014ac
+                0x00800060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800060       0x17 read_line.o
+ *(.gnu.linkonce.d*)
+                0x00800078                . = ALIGN (0x2)
+ *fill*         0x00800077        0x1 00
+                0x00800078                _edata = .
+                0x00800078                PROVIDE (__data_end, .)
+
+.bss            0x00800078        0x2
+                0x00800078                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00800078        0x2 read_line.o
+                0x00800079                _lcd_clear_display
+                0x00800078                lcd_ini
+ *(COMMON)
+                0x0080007a                PROVIDE (__bss_end, .)
+                0x000014ac                __data_load_start = LOADADDR (.data)
+                0x000014c4                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080007a        0x0
+                0x0080007a                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x0080007a                PROVIDE (__noinit_end, .)
+                0x0080007a                _end = .
+                0x0080007a                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.stab           0x00000000      0x36c
+ *(.stab)
+ .stab          0x00000000      0x36c C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+
+.stabstr        0x00000000       0x84
+ *(.stabstr)
+ .stabstr       0x00000000       0x84 C:/WinAVR/bin/../lib/gcc/avr/3.4.6/../../../../avr/lib/avr5/crtm16.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x14
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x14 read_line.o
+
+.debug_pubnames
+                0x00000000      0x12b
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x12b read_line.o
+
+.debug_info     0x00000000      0x59a
+ *(.debug_info)
+ .debug_info    0x00000000      0x59a read_line.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000       0xe0
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xe0 read_line.o
+
+.debug_line     0x00000000      0x5ac
+ *(.debug_line)
+ .debug_line    0x00000000      0x5ac read_line.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000       0x12
+ *(.debug_str)
+ .debug_str     0x00000000       0x12 read_line.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(read_line.elf elf32-avr)
